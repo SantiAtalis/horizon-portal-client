@@ -1,9 +1,13 @@
 import React from 'react'
-import { Box } from '@chakra-ui/react'
+import { Box, Center, Text } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
-    <Box h='footer.size' bg='secondary.100' color='primary.100'>2023 - Atalis Funding</Box>
+    <Box h='footer.size' bg='secondary.100' color='primary.100'>
+      <Center h='inherit'>
+        <Text>2023 - Atalis Funding</Text>
+      </Center>
+    </Box>
   )
 }
 
