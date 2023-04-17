@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Heading, Grid, GridItem, Center } from '@chakra-ui/react'
+import { Box, Heading, Grid, GridItem } from '@chakra-ui/react'
 
 const Header = () => {
   return (
