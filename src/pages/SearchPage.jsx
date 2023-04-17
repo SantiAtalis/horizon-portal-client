@@ -1,0 +1,17 @@
+import React from 'react'
+import FilterBox from '../components/SearchPageComponents/FilterBox'
+import ContentBox from '../components/SearchPageComponents/ContentBox'
+import { Container, Grid } from '@chakra-ui/react'
+
+const SearchPage = () => {
+  return (
+    <Container minH='container.height' minW={{ base: 'container.width', xl: '75vw' }} bg='detail.100'>
+      <Grid templateColumns='repeat(2, 47.5%)' gap='5%'>
+        <FilterBox />
+        <ContentBox />
+      </Grid>
+    </Container>
+  )
+}
+
+export default SearchPage

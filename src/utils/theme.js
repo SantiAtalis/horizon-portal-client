@@ -20,7 +20,8 @@ const theme = extendTheme({
       size: '5vh'
     },
     container: {
-      size: '85vh'
+      height: '85vh',
+      width: '100vw'
     }
   }
 })
