@@ -3,13 +3,14 @@ import { extendTheme } from '@chakra-ui/react'
 const theme = extendTheme({
   colors: {
     primary: {
-      100: 'white'
+      base: 'white'
     },
     secondary: {
-      100: '#004494'
+      base: '#004494'
+      // hover:
     },
     detail: {
-      100: '#ffd617'
+      base: '#ffd617'
     }
   },
   sizes: {

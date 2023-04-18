@@ -1,7 +1,7 @@
 import React from 'react'
 import theme from './utils/theme'
-import Header from './components/GlobalComponents/Header'
-import Footer from './components/GlobalComponents/Footer'
+import Header from './components/globalComponents/Header'
+import Footer from './components/globalComponents/Footer'
 import SearchPage from './pages/SearchPage'
 import { ChakraProvider } from '@chakra-ui/react'
 
